@@ -38,10 +38,10 @@
 
         Numbers {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                             &rgb_ug RGB_BRI                   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &rgb_ug RGB_SPD  &rgb_ug RGB_TOG  &rgb_ug RGB_SPI  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                     &rgb_ug RGB_BRD                   &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                                               &trans  &trans  &trans
+&trans  &kp N1                           &kp N2                             &kp N3                             &kp N4                          &kp N5                                                        &rgb_ug RGB_BRI                   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(220,100,50)  &rgb_ug RGB_COLOR_HSB(130,100,50)  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(317,100,50)            &rgb_ug RGB_SPD  &rgb_ug RGB_TOG  &rgb_ug RGB_SPI  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                           &trans                             &trans                             &trans                          &trans                             &trans                     &rgb_ug RGB_BRD                   &trans  &trans  &trans  &trans  &trans  &trans
+                                                                            &trans                             &trans                          &trans                                                                                          &trans  &trans  &trans
             >;
 
             label = "NUM";
