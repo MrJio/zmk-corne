@@ -63,11 +63,11 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(0,100,50)
+  - RGB COLOR HSB(220,100,50)
+  - RGB COLOR HSB(130,100,50)
+  - RGB COLOR HSB(0,0,100)
+  - RGB COLOR HSB(317,100,50)
   - RGB SPD
   - RGB TOG
   - RGB SPI
