@@ -85,7 +85,7 @@
         };
 
         layer_5 {
-            label = "CTRL";
+            label = "huh";
             display-name = "QWERTY";
             bindings = <
 &trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                    &trans          &kp LG(Y)       &kp LG(U)     &kp LG(I)  &kp LG(O)  &kp LG(P)  &trans
