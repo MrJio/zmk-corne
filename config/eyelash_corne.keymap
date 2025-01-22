@@ -24,10 +24,10 @@
         Normal {
             display-name = "QWERTY";
             bindings = <
-&kp ESC          &kp Q  &kp W  &kp E  &kp R  &kp T                              &kp UP                &kp Y    &kp U      &kp I      &kp O    &kp P     &kp BSPC
-&kp CLCK         &kp A  &kp S  &kp D  &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H    &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
-&rgb_ug RGB_EFF  &kp Z  &kp X  &kp C  &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mo 1
-                               &mo 2  &kp A  &kp LSHFT                                                &kp RET  &kp SPACE  &mo 1
+&kp ESC          &kp Q  &kp W  &kp E                                       &kp R  &kp T                              &kp UP                &kp Y    &kp U      &kp I      &kp O    &kp P     &kp BSPC
+&kp CLCK         &kp A  &kp S  &kp D                                       &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H    &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
+&rgb_ug RGB_EFF  &kp Z  &kp X  &kp C                                       &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT
+                               &mt LS(RIGHT_PARENTHESIS) LEFT_PARENTHESIS  &mo 2  &kp LSHFT                                                &kp RET  &kp SPACE  &mo 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -45,7 +45,7 @@
         };
 
         Symbol {
-            display-name = "SYMBOL";
+            display-name = "ALT!";
             bindings = <
 &trans  &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                                  &kp LG(L)                        &kp CARET       &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)                    &kp LC(LEFT)  &kp LC(UP_ARROW)  &kp LC(RIGHT)  &kp MINUS       &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
@@ -53,7 +53,7 @@
                               &trans     &trans     &trans                                                                      &kp LEFT_SHIFT  &kp LEFT_ALT  &trans
             >;
 
-            label = "SYMBOL";
+            label = "ALT!";
             sensor-bindings = <&inc_dec_kp LG(T) LG(W)>;
         };
     };
