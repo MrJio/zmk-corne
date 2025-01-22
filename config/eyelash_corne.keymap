@@ -40,7 +40,7 @@
             bindings = <
 &trans  &kp N1                           &kp N2                             &kp N3                             &kp N4                          &kp N5                                                        &rgb_ug RGB_BRI                   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
 &trans  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(220,100,50)  &rgb_ug RGB_COLOR_HSB(130,100,50)  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(317,100,50)            &rgb_ug RGB_SPD  &rgb_ug RGB_TOG  &rgb_ug RGB_SPI  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                           &trans                             &trans                             &trans                          &trans                             &trans                     &rgb_ug RGB_BRD                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(Z)                        &kp LG(X)                          &kp LG(C)                          &kp LG(V)                       &kp LG(B)                          &trans                     &rgb_ug RGB_BRD                   &trans  &trans  &trans  &trans  &trans  &trans
                                                                             &trans                             &trans                          &trans                                                                                          &trans  &trans  &trans
             >;
 
@@ -62,7 +62,7 @@
         Control {
             bindings = <
 &trans  &trans             &kp C_AC_CLOSE  &trans      &trans       &kp TAB                      &trans          &trans  &trans  &trans  &trans  &kp C_AC_PRINT  &trans
-&trans  &trans             &kp C_AC_SAVE   &trans      &kp K_FIND   &kp LG(G)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &trans             &kp C_AC_SAVE   &trans      &kp K_FIND   &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
 &trans  &mt K_REDO K_UNDO  &kp K_CUT       &kp K_COPY  &kp K_PASTE  &kp LG(B)  &trans            &trans          &trans  &trans  &trans  &trans  &trans          &trans
                                            &trans      &trans       &trans                                       &trans  &trans  &trans
             >;
