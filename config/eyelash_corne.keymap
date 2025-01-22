@@ -54,7 +54,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LG(T) LG(W)>;
-            label = "ALT";
+            label = "SYMBOL";
         };
     };
 };
