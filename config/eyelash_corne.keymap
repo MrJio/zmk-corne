@@ -1,9 +1,6 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -27,10 +24,10 @@
         Normal {
             display-name = "QWERTY";
             bindings = <
-&kp ESC          &kp Q  &kp W  &kp E  &kp R  &kp T                              &kp UP                &kp Y    &kp U      &kp I      &kp O    &kp P     &kp BSPC
-&kp CLCK         &kp A  &kp S  &kp D  &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H    &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
-&rgb_ug RGB_EFF  &kp Z  &kp X  &kp C  &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT
-                               &mo 2  &mo 4  &kp LSHFT                                                &kp RET  &kp SPACE  &mo 5
+&kp ESC          &kp Q  &kp W  &kp E  &kp R  &kp T                              &kp UP                &kp Y    &kp U      &kp I                                   &kp O    &kp P     &kp BSPC
+&kp CLCK         &kp A  &kp S  &kp D  &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H    &kp J      &kp K                                   &kp L    &kp SEMI  &kp SQT
+&rgb_ug RGB_EFF  &kp Z  &kp X  &kp C  &kp V  &kp B      &kp C_MUTE              &kp DOWN              &kp N    &kp M      &kp COMMA                               &kp DOT  &kp FSLH  &kp LEFT_ALT
+                               &mo 1  &mo 2  &kp LSHFT                                                &kp RET  &kp SPACE  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -50,49 +47,14 @@
         Symbol {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                        &trans             &kp CARET              &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4                 &trans  &mkp LCLK  &trans  &kp MINUS              &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&mo 0   &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &kp C_MUTE            &trans             &kp UNDER              &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &mo 0
-                                    &trans     &kp LBKT   &kp LPAR                                            &kp RIGHT_PARENTHESIS  &kp RBKT   &trans
+&trans  &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                                  &kp LG(L)                  &kp CARET       &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)                    &kp LC(LEFT)  &kp LC(UP)  &kp LC(RIGHT)  &kp MINUS       &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &kp LS(LC(N4))                  &trans                     &kp UNDER       &kp PLUS      &kp LBRC   &kp RBRC  &kp PIPE  &mo 0
+                              &trans     &trans     &trans                                                                &kp LEFT_SHIFT  &kp LEFT_ALT  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
-        };
-
-        Control {
-            display-name = "QWERTY";
-            bindings = <
-&trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                    &trans          &kp LG(Y)       &kp LG(U)     &kp LG(I)  &kp LG(O)  &kp LG(P)  &trans
-&trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)            &trans  &trans  &trans  &kp LG(H)       &kp LG(J)     &kp LG(K)  &kp LG(L)  &trans     &trans
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &trans            &trans          &kp LG(N)       &kp LG(M)     &trans     &trans     &trans     &trans
-                              &trans     &trans     &trans                                       &kp LEFT_SHIFT  &kp LEFT_ALT  &trans
-            >;
-
-            label = "CTRL";
-        };
-
-        layer_4 {
-            display-name = "SYMBOL";
-            bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                        &trans             &kp CARET              &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4                 &trans  &mkp LCLK  &trans  &kp MINUS              &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&mo 0   &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &kp C_MUTE            &trans             &kp UNDER              &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &mo 0
-                                    &trans     &kp LBKT   &kp LPAR                                            &kp RIGHT_PARENTHESIS  &kp RBKT   &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
-            label = "test";
-        };
-
-        layer_5 {
-            label = "huh";
-            display-name = "QWERTY";
-            bindings = <
-&trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                    &trans          &kp LG(Y)       &kp LG(U)     &kp LG(I)  &kp LG(O)  &kp LG(P)  &trans
-&trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)            &trans  &trans  &trans  &kp LG(H)       &kp LG(J)     &kp LG(K)  &kp LG(L)  &trans     &trans
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &trans            &trans          &kp LG(N)       &kp LG(M)     &trans     &trans     &trans     &trans
-                              &trans     &trans     &trans                                       &kp LEFT_SHIFT  &kp LEFT_ALT  &trans
-            >;
+            sensor-bindings = <&inc_dec_kp LG(T) LG(W)>;
+            label = "ALT";
         };
     };
 };
