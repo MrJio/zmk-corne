@@ -35,10 +35,10 @@
 
         Numbers {
             bindings = <
-&trans  &kp N1                           &kp N2                             &kp N3                             &kp N4                             &kp N5                                                        &rgb_ug RGB_BRI                   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(220,100,50)  &rgb_ug RGB_COLOR_HSB(130,100,50)  &rgb_ug RGB_COLOR_HSB(276,100,50)  &rgb_ug RGB_COLOR_HSB(317,100,50)            &rgb_ug RGB_SPD  &rgb_ug RGB_TOG  &rgb_ug RGB_SPI  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                           &trans                             &trans                             &trans                             &trans                             &trans                     &rgb_ug RGB_BRD                   &trans  &trans  &trans  &trans  &trans  &trans
-                                                                            &to 0                              &kp LCTRL                          &trans                                                                                          &trans  &trans  &trans
+&trans           &kp N1                           &kp N2                             &kp N3                             &kp N4                             &kp N5                                                        &rgb_ug RGB_BRI                   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans           &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(220,100,50)  &rgb_ug RGB_COLOR_HSB(130,100,50)  &rgb_ug RGB_COLOR_HSB(276,100,50)  &rgb_ug RGB_COLOR_HSB(317,100,50)            &rgb_ug RGB_SPD  &rgb_ug RGB_TOG  &rgb_ug RGB_SPI  &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_TOG  &trans                           &trans                             &trans                             &trans                             &trans                             &trans                     &rgb_ug RGB_BRD                   &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_EFF
+                                                                                     &to 0                              &to 2                              &trans                                                                                          &trans  &trans  &trans
             >;
 
             label = "NUM";
@@ -47,10 +47,10 @@
         Symbol {
             display-name = "ALT!";
             bindings = <
-&trans           &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                    &trans          &kp CARET       &kp AMPS              &kp ASTRK              &kp LPAR  &kp RPAR  &kp BSPC
-&trans           &trans    &trans  &trans    &trans    &trans               &trans  &trans  &trans  &kp MINUS       &kp EQUAL             &kp LBKT               &kp RBKT  &kp BSLH  &kp GRAVE
-&rgb_ug RGB_TOG  &trans    &trans  &trans    &trans    &trans     &trans            &trans          &kp UNDER       &kp PLUS              &kp LBRC               &kp RBRC  &kp PIPE  &rgb_ug RGB_EFF
-                                   &trans    &to 0     &trans                                       &kp LEFT_SHIFT  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                             &rgb_ug RGB_HUI                   &kp CARET       &kp AMPS              &kp ASTRK              &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &trans    &trans  &trans    &trans    &trans               &rgb_ug RGB_SAD  &trans           &rgb_ug RGB_SAI  &kp MINUS       &kp EQUAL             &kp LBKT               &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &trans    &trans  &trans    &trans    &trans     &trans                     &rgb_ug RGB_HUD                   &kp UNDER       &kp PLUS              &kp LBRC               &kp RBRC  &kp PIPE  &trans
+                          &to 1     &to 0     &trans                                                                  &kp LEFT_SHIFT  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
             >;
 
             label = "ALT!";
