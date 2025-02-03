@@ -4,7 +4,7 @@ layers:
   - Q
   - {t: W, h: Gui+W}
   - E
-  - {t: R, h: Gui+R}
+  - R
   - T
   - $$mdi:arrow-down-bold$$
   - Y
