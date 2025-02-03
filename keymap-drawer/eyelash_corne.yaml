@@ -5,7 +5,7 @@ layers:
   - {t: W, h: Gui+W}
   - E
   - {t: R, h: Gui+R}
-  - {t: T, h: Gui+T}
+  - T
   - $$mdi:arrow-down-bold$$
   - Y
   - U
@@ -50,16 +50,16 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUM:
   - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - {t: '1', h: Gui+1, s: '!'}
+  - {t: '2', h: Gui+2, s: '@'}
+  - {t: '3', h: Gui+3, s: '#'}
+  - {t: '4', h: Gui+4, s: $}
+  - {t: '5', h: Gui+5, s: '%'}
   - RGB SPI
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '6', h: Gui+6, s: ^}
+  - {t: '7', h: Gui+7, s: '&'}
+  - {t: '8', h: Gui+8, s: '*'}
+  - {t: '9', h: Gui+9, s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
