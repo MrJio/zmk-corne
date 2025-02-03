@@ -106,10 +106,10 @@ layers:
   - '%'
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - ^
+  - '{'
+  - '}'
   - '&'
-  - '*'
-  - (
-  - )
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -121,9 +121,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Gui+]', s: 'Gui+}'}
   - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - (
+  - )
+  - {t: '$$mdi:transfer$$', type: trans}
   - '|'
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -135,14 +135,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - _
-  - +
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
   - RGB EFF
   - {t: NUM, h: toggle}
   - {type: held}
   - {t: QWERTY, h: toggle}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', h: QWERTY}
+  - {t: '-', s: _}
+  - _
+  - '*'
