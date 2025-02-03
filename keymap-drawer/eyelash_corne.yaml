@@ -31,9 +31,9 @@ layers:
   - RGB TOG
   - Z
   - X
-  - C
-  - V
-  - B
+  - {t: C, h: C}
+  - {t: V, h: V}
+  - {t: B, h: Gui+B}
   - {t: MOUSE, h: toggle}
   - $$mdi:arrow-up-bold$$
   - N
@@ -42,11 +42,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - RGB EFF
-  - {t: NUM, h: toggle}
+  - NUM
   - ALT!
   - $$mdi:apple-keyboard-shift$$
-  - LGUI
   - $$mdi:keyboard-space$$
+  - LGUI
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUM:
   - $$mdi:keyboard-esc$$
@@ -91,7 +91,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
-  - {t: QWERTY, h: toggle}
+  - {t: QWERTY, h: toggle, type: held}
   - {t: ALT!, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
