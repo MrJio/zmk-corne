@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&td0'
+  - {t: RGB EFF, h: RGB TOG}
   - {t: '=', h: +, s: +}
   - ALT!
   - $$mdi:apple-keyboard-shift$$
