@@ -21,7 +21,7 @@ layers:
   - G
   - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+Gui+$$mdi:arrow-left-bold$$'}
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+Gui+$$mdi:arrow-right-bold$$'}
+  - {t: '$$mdi:arrow-right-bold$$', h: 'Gui+Sft+$$mdi:arrow-right-bold$$'}
   - H
   - J
   - K
