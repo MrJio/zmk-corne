@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - RGB TOG
+  - {t: RGB EFF, h: RGB TOG}
   - {t: '=', h: +, s: +}
   - ALT!
   - $$mdi:apple-keyboard-shift$$
@@ -139,7 +139,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
-  - RGB EFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: NUM, h: toggle}
   - {type: held}
   - {t: QWERTY, h: toggle}
