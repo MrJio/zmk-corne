@@ -4,8 +4,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
-    tapping-term-ms = <800>;
+    tapping-term-ms = <400>;
     quick-tap-ms = <100>;
+    hold-trigger-on-release;
 };
 
 / {
