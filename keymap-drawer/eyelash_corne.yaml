@@ -90,13 +90,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:keyboard-return$$', h: QWERTY}
+  - {t: '$$mdi:transfer$$', type: trans}
   ALT!:
   - $$mdi:keyboard-esc$$
   - '!'
@@ -139,7 +139,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
-  - RGB EFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: NUM, h: toggle}
   - {type: held}
   - {t: QWERTY, h: toggle}
