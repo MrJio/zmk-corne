@@ -14,18 +14,18 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - CLCK
-  - A
+  - {t: A, h: A}
   - S
-  - D
+  - {t: D, h: D}
   - {t: F, h: F}
   - G
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+Gui+$$mdi:arrow-left-bold$$'}
   - $$mdi:keyboard-tab$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+Gui+$$mdi:arrow-right-bold$$'}
   - H
   - J
   - K
-  - L
+  - {t: L, h: Gui+L}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - Gui+Sft+Z
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - RGB TOG
+  - {t: RGB EFF, h: RGB TOG}
   - {t: '=', h: +, s: +}
   - ALT!
   - $$mdi:apple-keyboard-shift$$
@@ -55,7 +55,7 @@ layers:
   - {t: '3', h: Gui+3, s: '#'}
   - {t: '4', h: Gui+4, s: $}
   - {t: '5', h: Gui+5, s: '%'}
-  - RGB SPI
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '6', h: Gui+6, s: ^}
   - {t: '7', h: Gui+7, s: '&'}
   - {t: '8', h: Gui+8, s: '*'}
@@ -68,9 +68,6 @@ layers:
   - RGB COLOR HSB(112,84,46)
   - RGB COLOR HSB(276,100,50)
   - RGB COLOR HSB(305,100,50)
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -84,7 +81,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB SPD
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -117,9 +117,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Gui+[', s: 'Gui+{'}
+  - {t: 'Ctl+$$mdi:arrow-left-bold$$', h: 'Gui+['}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Gui+]', s: 'Gui+}'}
+  - {t: 'Ctl+$$mdi:arrow-right-bold$$', h: 'Gui+]'}
   - {t: '-', s: _}
   - (
   - )
