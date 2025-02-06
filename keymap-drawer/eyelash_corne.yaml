@@ -28,7 +28,7 @@ layers:
   - {t: L, h: Gui+L}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - Gui+Sft+Z
+  - {t: Sft+Gui+Z, h: LGUI}
   - {t: Z, h: Z}
   - {t: X, h: X}
   - {t: C, h: C}
