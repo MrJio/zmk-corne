@@ -19,9 +19,9 @@ layers:
   - {t: D, h: D}
   - {t: F, h: F}
   - G
-  - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+Gui+$$mdi:arrow-left-bold$$'}
+  - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:arrow-right-bold$$', h: 'Gui+Sft+$$mdi:arrow-right-bold$$'}
+  - $$mdi:arrow-right-bold$$
   - H
   - J
   - K
