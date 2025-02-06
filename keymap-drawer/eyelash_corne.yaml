@@ -43,10 +43,10 @@ layers:
   - {t: /, s: '?'}
   - RGB TOG
   - {t: '=', h: +, s: +}
-  - ALT!
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
+  - ALT!
   - NUM
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUM:
   - $$mdi:keyboard-esc$$
@@ -94,8 +94,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   ALT!:
   - $$mdi:keyboard-esc$$
@@ -141,8 +141,8 @@ layers:
   - {t: \, s: '|'}
   - RGB EFF
   - {t: NUM, h: toggle}
-  - {type: held}
-  - {t: QWERTY, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWERTY, h: toggle, type: held}
   - {t: '-', s: _}
   - _
   - '*'
