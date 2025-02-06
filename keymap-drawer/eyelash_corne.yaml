@@ -117,9 +117,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Ctl+$$mdi:arrow-left-bold$$', h: 'Gui+['}
+  - {t: 'Gui+Sft+$$mdi:arrow-left-bold$$', h: 'Gui+['}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Ctl+$$mdi:arrow-right-bold$$', h: 'Gui+]'}
+  - {t: 'Sft+Gui+$$mdi:arrow-right-bold$$', h: 'Gui+]'}
   - {t: '-', s: _}
   - (
   - )
