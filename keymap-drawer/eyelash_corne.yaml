@@ -34,7 +34,7 @@ layers:
   - {t: C, h: C}
   - {t: V, h: V}
   - {t: B, h: Gui+B}
-  - {t: Ctl+Sft+4, s: Ctl+Sft+$}
+  - {t: Sft+Gui+4, s: Sft+Gui+$}
   - $$mdi:arrow-up-bold$$
   - N
   - M
