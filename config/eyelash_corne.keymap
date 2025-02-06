@@ -45,7 +45,7 @@
             bindings = <
 &mt LC(C) ESC  &kp Q        &mt LG(W) W  &kp E           &mt LG(R) R  &mt LG(T) T                              &kp DOWN             &kp Y  &kp U      &kp I      &kp O        &kp P     &kp BSPC
 &kp CLCK       &mt LG(A) A  &kp S        &mt LG(D) D     &mt LG(F) F  &kp G                          &kp LEFT  &kp TAB   &kp RIGHT  &kp H  &kp J      &kp K      &mt LG(L) L  &kp SEMI  &kp SQT
-&kp LG(LS(Z))  &mt LG(Z) Z  &mt LG(X) X  &mt LG(C) C     &mt LG(V) V  &mt LG(B) B  &kp LC(LS(N4))              &kp UP               &kp N  &kp M      &kp COMMA  &kp DOT      &kp FSLH  &rgb_ug RGB_TOG
+&kp LG(LS(Z))  &mt LG(Z) Z  &mt LG(X) X  &mt LG(C) C     &mt LG(V) V  &mt LG(B) B  &kp LS(LG(N4))              &kp UP               &kp N  &kp M      &kp COMMA  &kp DOT      &kp FSLH  &rgb_ug RGB_TOG
                                          &mt PLUS EQUAL  &kp LSHIFT   &mo 2                                                         &mo 1  &kp SPACE  &kp ENTER
             >;
 
