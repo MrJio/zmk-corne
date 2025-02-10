@@ -6,7 +6,7 @@ layers:
   - E
   - {t: R, h: Gui+R}
   - {t: T, h: Gui+T}
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - Y
   - U
   - I
@@ -35,7 +35,7 @@ layers:
   - {t: V, h: V}
   - {t: B, h: Gui+B}
   - {t: Sft+Gui+4, s: Sft+Gui+$}
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
   - N
   - M
   - {t: ',', s: <}
@@ -43,10 +43,10 @@ layers:
   - {t: /, h: Gui+/, s: '?'}
   - RGB TOG
   - {t: '=', h: +, s: +}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - ALT!
   - NUM
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUM:
   - $$mdi:keyboard-esc$$
