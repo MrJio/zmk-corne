@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -67,10 +68,10 @@
         Symbol {
             display-name = "ALT!";
             bindings = <
-&kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                                               &kp LG(A)                                       &kp CARET  &kp LBRC   &kp RBRC   &kp AMPS  &trans         &kp BSPC
-&trans   &trans    &trans  &trans    &trans    &trans               &mt LG(LEFT_BRACKET) LG(LS(LEFT))  &trans     &mt LG(RIGHT_BRACKET) LS(LG(RIGHT))  &kp MINUS  &kp LPAR   &kp RPAR   &trans    &kp PIPE       &kp GRAVE
-&trans   &trans    &trans  &trans    &trans    &trans     &trans                                       &kp LG(D)                                       &kp UNDER  &kp LBKT   &kp RBKT   &trans    &kp BACKSLASH  &rgb_ug RGB_EFF
-                           &to 1     &trans    &to 0                                                                                                   &kp MINUS  &kp UNDER  &kp ASTRK
+&kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                                               &kp LG(A)                                        &kp CARET  &kp LBRC   &kp RBRC   &kp AMPS  &trans         &kp BSPC
+&trans   &trans    &trans  &trans    &trans    &trans               &mt LG(LEFT_BRACKET) LG(LS(LEFT))  &bt BT_NXT  &mt LG(RIGHT_BRACKET) LS(LG(RIGHT))  &kp MINUS  &kp LPAR   &kp RPAR   &trans    &kp PIPE       &kp GRAVE
+&trans   &trans    &trans  &trans    &trans    &trans     &trans                                       &kp LG(D)                                        &kp UNDER  &kp LBKT   &kp RBKT   &trans    &kp BACKSLASH  &rgb_ug RGB_EFF
+                           &to 1     &trans    &to 0                                                                                                    &kp MINUS  &kp UNDER  &kp ASTRK
             >;
 
             label = "ALT!";
