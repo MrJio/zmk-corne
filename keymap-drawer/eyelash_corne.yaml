@@ -1,5 +1,5 @@
 layers:
-  QWERTY:
+  MAC:
   - {t: '$$mdi:keyboard-esc$$', h: Ctl+C}
   - Q
   - {t: W, h: Gui+W}
@@ -20,7 +20,7 @@ layers:
   - {t: F, h: F}
   - G
   - $$mdi:arrow-left-bold$$
-  - RGB ON
+  - RGB TOG
   - $$mdi:arrow-right-bold$$
   - H
   - J
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: Gui+/, s: '?'}
-  - {t: Gaming, h: toggle}
+  - {t: GAMING, h: toggle}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - ALT!
@@ -104,7 +104,7 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: WIN, h: toggle}
   - ^
   - '{'
   - '}'
@@ -118,7 +118,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: MAC, h: toggle}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '-', s: _}
   - (
@@ -142,11 +142,11 @@ layers:
   - RGB EFF
   - {t: NUM, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: toggle, type: held}
+  - {type: held}
   - {t: '-', s: _}
   - _
   - '*'
-  Gaming:
+  GAMING:
   - $$mdi:keyboard-esc$$
   - Q
   - W
@@ -175,7 +175,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: NUM, h: toggle}
   - Z
   - X
   - C
@@ -188,10 +188,59 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: toggle}
+  - {t: MAC, h: toggle}
   - E
   - C
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  WIN:
+  - {t: '$$mdi:keyboard-esc$$', h: 'Gui+$$mdi:arrow-down-bold$$'}
+  - Q
+  - {t: W, h: Ctl+W}
+  - E
+  - {t: R, h: Gui+R}
+  - {t: T, h: Gui+T}
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-tab$$', h: CLCK}
+  - {t: A, h: Ctl+A}
+  - S
+  - {t: D, h: Ctl+D}
+  - {t: F, h: Ctl+F}
+  - G
+  - $$mdi:arrow-left-bold$$
+  - RGB TOG
+  - $$mdi:arrow-right-bold$$
+  - H
+  - J
+  - K
+  - {t: L, h: Gui+L}
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - {t: Sft+Ctl+Z, h: LGUI}
+  - {t: Z, h: Ctl+Z}
+  - {t: X, h: Ctl+X}
+  - {t: C, h: C}
+  - {t: V, h: Ctl+V}
+  - {t: B, h: Ctl+B}
+  - {t: Sft+Gui+4, s: Sft+Gui+$}
+  - $$mdi:arrow-down-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, h: Gui+/, s: '?'}
+  - {t: GAMING, h: toggle}
+  - {t: '=', h: +, s: +}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - ALT!
+  - NUM
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
