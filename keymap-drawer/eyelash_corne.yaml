@@ -104,7 +104,7 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: WIN, h: toggle}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - ^
   - '{'
   - '}'
@@ -118,7 +118,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {t: MAC, h: toggle}
+  - RGB EFF
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '-', s: _}
   - (
@@ -139,7 +139,7 @@ layers:
   - {t: ']', h: 'Gui+]', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
-  - RGB EFF
+  - {t: MAC, h: toggle}
   - {t: NUM, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -181,14 +181,14 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: MAC, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: WIN, h: toggle}
   - E
   - C
   - $$mdi:keyboard-space$$
@@ -200,8 +200,8 @@ layers:
   - Q
   - {t: W, h: Ctl+W}
   - E
-  - {t: R, h: Gui+R}
-  - {t: T, h: Gui+T}
+  - {t: R, h: Ctl+R}
+  - {t: T, h: Ctl+T}
   - $$mdi:arrow-up-bold$$
   - Y
   - U
@@ -221,7 +221,7 @@ layers:
   - H
   - J
   - K
-  - {t: L, h: Gui+L}
+  - {t: L, h: Ctl+L}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: Sft+Ctl+Z, h: LGUI}
@@ -230,7 +230,7 @@ layers:
   - {t: C, h: C}
   - {t: V, h: Ctl+V}
   - {t: B, h: Ctl+B}
-  - {t: Sft+Gui+4, s: Sft+Gui+$}
+  - {t: MAC, h: toggle}
   - $$mdi:arrow-down-bold$$
   - N
   - M
