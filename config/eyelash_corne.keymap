@@ -41,13 +41,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Normal {
-            display-name = "QWERTY";
+        Macbook {
+            display-name = "MAC";
             bindings = <
-&mt LC(C) ESC       &kp Q        &Long LG(W) W  &kp E           &Long LG(R) R       &Long LG(T) T                              &kp UP                           &kp Y  &kp U                   &kp I      &kp O        &kp P              &kp BSPC
-&mt CLCK TAB        &mt LG(A) A  &kp S          &mt LG(D) D     &mt LG(F) F         &kp G                            &kp LEFT  &rgb_ug RGB_ON  &kp RIGHT_ARROW  &kp H  &kp J                   &kp K      &mt LG(L) L  &kp SEMI           &kp SQT
-&mt LGUI LS(LG(Z))  &mt LG(Z) Z  &mt LG(X) X    &mt LG(C) C     &mt LG(V) V         &mt LG(B) B    &kp LS(LG(N4))              &kp DOWN                         &kp N  &kp M                   &kp COMMA  &kp DOT      &mt LG(FSLH) FSLH  &to 3
-                                                &mt PLUS EQUAL  &Long LSHIFT SPACE  &mo 2                                                                       &mo 1  &Long LEFT_SHIFT SPACE  &kp ENTER
+&mt LC(C) ESC       &kp Q        &Long LG(W) W  &kp E           &Long LG(R) R       &Long LG(T) T                              &kp UP                            &kp Y  &kp U                   &kp I      &kp O        &kp P              &kp BSPC
+&mt CLCK TAB        &mt LG(A) A  &kp S          &mt LG(D) D     &mt LG(F) F         &kp G                            &kp LEFT  &rgb_ug RGB_TOG  &kp RIGHT_ARROW  &kp H  &kp J                   &kp K      &mt LG(L) L  &kp SEMI           &kp SQT
+&mt LGUI LS(LG(Z))  &mt LG(Z) Z  &mt LG(X) X    &mt LG(C) C     &mt LG(V) V         &mt LG(B) B    &kp LS(LG(N4))              &kp DOWN                          &kp N  &kp M                   &kp COMMA  &kp DOT      &mt LG(FSLH) FSLH  &to 3
+                                                &mt PLUS EQUAL  &Long LSHIFT SPACE  &mo 2                                                                        &mo 1  &Long LEFT_SHIFT SPACE  &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -68,22 +68,35 @@
         Symbol {
             display-name = "ALT!";
             bindings = <
-&kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                        &kp LG(A)              &kp CARET  &kp LBRC           &kp RBRC           &kp AMPS  &trans         &kp BSPC
-&trans   &trans    &trans  &trans    &trans    &trans               &bt BT_PRV  &trans     &bt BT_NXT  &kp MINUS  &kp LPAR           &kp RPAR           &trans    &kp PIPE       &kp GRAVE
+&kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                        &to 4                  &kp CARET  &kp LBRC           &kp RBRC           &kp AMPS  &trans         &kp BSPC
+&trans   &trans    &trans  &trans    &trans    &trans               &bt BT_PRV  &to 0      &bt BT_NXT  &kp MINUS  &kp LPAR           &kp RPAR           &trans    &kp PIPE       &kp GRAVE
 &trans   &trans    &trans  &trans    &trans    &trans     &trans                &kp LG(D)              &kp UNDER  &mt LG(LBKT) LBKT  &mt LG(RBKT) RBKT  &trans    &kp BACKSLASH  &rgb_ug RGB_EFF
-                           &to 1     &trans    &to 0                                                   &kp MINUS  &kp UNDER          &kp ASTRK
+                           &to 1     &trans    &trans                                                  &kp MINUS  &kp UNDER          &kp ASTRK
             >;
 
             label = "ALT!";
         };
 
-        Game {
+        Games {
             display-name = "Gaming";
             bindings = <
 &kp ESC       &kp Q  &kp W  &kp E  &kp R  &kp T                        &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &mt CLCK TAB  &kp A  &kp S  &kp D  &kp F  &kp G                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &kp Z  &kp X  &kp C  &kp V  &kp B      &trans            &trans          &trans  &trans  &trans  &trans  &trans  &to 0
+&tog 1        &kp Z  &kp X  &kp C  &kp V  &kp B      &trans            &trans          &trans  &trans  &trans  &trans  &trans  &to 0
                             &kp E  &kp C  &kp SPACE                                    &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            label = "GAMING";
+        };
+
+        Windows {
+            display-name = "WIN";
+            bindings = <
+&mt LG(DOWN) ESC    &kp Q        &Long LC(W) W  &kp E           &Long LG(R) R       &Long LG(T) T                              &kp UP                            &kp Y  &kp U                   &kp I      &kp O        &kp P              &kp BSPC
+&mt CLCK TAB        &mt LC(A) A  &kp S          &mt LC(D) D     &mt LC(F) F         &kp G                            &kp LEFT  &rgb_ug RGB_TOG  &kp RIGHT_ARROW  &kp H  &kp J                   &kp K      &mt LG(L) L  &kp SEMI           &kp SQT
+&mt LGUI LS(LC(Z))  &mt LC(Z) Z  &mt LC(X) X    &mt LG(C) C     &mt LC(V) V         &mt LC(B) B    &kp LS(LG(N4))              &kp DOWN                          &kp N  &kp M                   &kp COMMA  &kp DOT      &mt LG(FSLH) FSLH  &to 3
+                                                &mt PLUS EQUAL  &Long LSHIFT SPACE  &mo 2                                                                        &mo 1  &Long LEFT_SHIFT SPACE  &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
