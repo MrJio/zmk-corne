@@ -2,9 +2,9 @@ layers:
   MAC:
   - {t: '$$mdi:keyboard-esc$$', h: Ctl+C}
   - Q
-  - {t: W, h: Gui+W}
+  - W
   - E
-  - {t: R, h: Gui+R}
+  - R
   - {t: T, h: Gui+T}
   - $$mdi:arrow-up-bold$$
   - Y
