@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -198,7 +198,7 @@ layers:
   WIN:
   - {t: '$$mdi:keyboard-esc$$', h: 'Gui+$$mdi:arrow-down-bold$$'}
   - Q
-  - {t: W, h: Ctl+W}
+  - W
   - E
   - {t: R, h: Ctl+R}
   - {t: T, h: Ctl+T}
@@ -224,12 +224,12 @@ layers:
   - {t: L, h: Ctl+L}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - {t: Sft+Ctl+Z, h: LGUI}
+  - Sft+Ctl+Z
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
   - {t: C, h: C}
   - {t: V, h: Ctl+V}
-  - {t: B, h: Ctl+B}
+  - B
   - {t: MAC, h: toggle}
   - $$mdi:arrow-down-bold$$
   - N
